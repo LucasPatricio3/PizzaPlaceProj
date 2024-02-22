@@ -10,6 +10,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/custom.css" rel="stylesheet" />
+        <link href="assets/fontawesome-free-6.5.1-web/css/all.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -21,10 +22,10 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">Produtos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Especiais</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Localização</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#login">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Produtos <i class="fa-solid fa-utensils"></i> </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Especiais <i class="fa-solid fa-bolt"></i> </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Localização <i class="fa-solid fa-location-pin"></i> </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#login">Login <i class="fa-solid fa-user"></i> </a></li>
                     </ul>
                 </div>
             </div>
@@ -34,19 +35,19 @@
             <div class="container px-4 text-center">
                 <h1 class="fw-bolder">Bem-vindo à Pizza Place</h1>
                 <p class="lead">Verifique as nossas PROMOÇÕES ou pesquise o nosso VASTO catálogo de PIZZAS</p>
-                <a class="btn btn-lg btn-light" id="btn-promo" href="#about">PROMOÇÕES!</a>
-                <a class="btn btn-lg btn-light" id="btn-promo" href="pizzas.html">PIZZAS!</a>
+                <a class="btn btn-lg btn-light" id="btn-promo" href="#promos">PROMOÇÕES <i class="fa-solid fa-dollar-sign"> </i></a>
+                <a class="btn btn-lg btn-light" id="btn-promo" href="pizzas.html">PIZZAS <i class="fa-solid fa-pizza-slice"> </i></a>
             </div>
         </header>
         <!-- Promos-->
-        <section class="py-5">
-            <div class="container" >
+        <section class="py-5" id="promos">
+            <div class="container p-5" id="container-promo">
                 <div class="jumbotron">
-                  <h1>Bootstrap Tutorial</h1>      
-                  <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
-                </div>
-                <p>This is some text.</p>      
-                <p>This is another text.</p>      
+                  <h1 class="mb-5">DÁ UMA VISTA DE OLHOS AS NOSSAS PROMOÇÕES!</h1>
+                  <p>Tempo restante:</p>    
+                  <h2 id="demo"></h2>
+                </div>  
+                <p style="font-size: xx-small;">*A redução de preços é reduzida com compras sucedentes</p>
             </div>
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
