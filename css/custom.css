@@ -19,7 +19,7 @@
 
 .head-bg
 {
-    background-image: linear-gradient(var(--cs-red-s1),var(--cs-red-s7));
+    background-image: linear-gradient(0deg,var(--cs-red-s1),var(--cs-red-s8) 60%);
 }
 
 #btn-promo{
