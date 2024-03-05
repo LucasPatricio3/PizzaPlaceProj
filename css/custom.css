@@ -87,8 +87,7 @@
     border-color: var(--cs-red-s1);
 }
 #localizações{
-    margin-left: 40vw;
-    border: solid 5px rgb(255, 0, 43);
+    background: radial-gradient(var(--cs-red-s1), var(--cs-red-s3));
     padding: 73px 100px;
     border-radius: 20px;
     color: rgb(255, 255, 255);
