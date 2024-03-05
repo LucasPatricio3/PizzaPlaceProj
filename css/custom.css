@@ -46,6 +46,7 @@
     color: var(--cs-white);
     text-align: center;
 }
+
 .slider {
     display: block;
     height: 293px;
