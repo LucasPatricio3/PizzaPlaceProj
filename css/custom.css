@@ -46,3 +46,27 @@
     color: var(--cs-white);
     text-align: center;
 }
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+#map{
+    height: 400px;
+    width: 100%;
+}
