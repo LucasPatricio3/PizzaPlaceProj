@@ -80,3 +80,8 @@
     padding : 10px;
     margin : 10px;
 }
+
+.check-mark:checked{
+    background-color: var(--cs-red-s1);
+    border-color: var(--cs-red-s1);
+}
