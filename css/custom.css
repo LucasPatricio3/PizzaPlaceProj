@@ -46,7 +46,6 @@
     color: var(--cs-white);
     text-align: center;
 }
-<<<<<<< Updated upstream
 .slider {
     display: block;
     height: 293px;
@@ -71,7 +70,6 @@
     height: 400px;
     width: 100%;
 }
-=======
 
 .form-format{
     margin-bottom: 2rem;
@@ -82,4 +80,3 @@
     padding : 10px;
     margin : 10px;
 }
->>>>>>> Stashed changes
